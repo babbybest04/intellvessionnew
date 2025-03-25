@@ -26,7 +26,12 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(163, 163, 255);
+    background-color: rgb(8, 8, 63);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    
 }
 
 .menu{
@@ -88,4 +93,29 @@ header{
     color: white;
     z-index: 10px;
     
+}
+.Service h1{
+
+    text-align: center;
+    font-size: 40px;
+    color: tomato;
+
+}
+.servicecontainer {
+    display: flex;
+    padding: 50px;
+    text-align: center;
+}
+.servicecontainer div{
+
+background-color: rgb(11, 53, 37);
+padding: 50px;
+border-radius: 10px;
+margin: 10px;
+cursor: pointer;
+
+}
+.servicecontainer div:hover{
+
+    transform: translateY(-10px);
 }
